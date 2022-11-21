@@ -1,0 +1,31 @@
+# En LINUX o MAC
+# Creando entorno virtual
+# python3 -m venv nombre_venv
+
+# Activar el entorno virtual
+# source venv/bin/activate --> Esto activa el entorno para usar el python del entorno, se despliega en la terminal
+
+# Desactivar el entorno virtual
+# deactivate
+
+# ALIAS para activar, editar ZSHRC o BASHRC y agregar
+# alias avenv="source venv/bin/activate"
+
+# En WINDOWS
+# Creando entorno virtual
+# py -m venv nombre_venv
+
+# Activar el entorno virtual
+# .\venv\Scripts\activate
+
+# Estando dentro del virtual environment, todo lo que se instale se mantendra solo alli, de otra forma se instalaria de manera global
+
+# PIP Manejador de paquetes
+# pip install nombre_modulo --> Instala el modulo
+# pip freeze -> Despliega los modulos instalados en el proyecto, pandas por ejemplo
+# pip freeze > requirements.txt --> Mete el resultado de freeze para saber cuales son las dependencias necesarias en el proyecto
+# pip install -r requirements.txt --> Instala las dependencias listadas en el archivo dado
+
+# ANACONDA Para ciencias de datos
+# Es un software con interfaz grafica para crear entornos y manejar datos
+
